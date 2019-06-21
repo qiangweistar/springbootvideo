@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>年级列表展示页</title>
+    <script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.5/css/bootstrap.min.css" />
+
+</head>
+<body>
+<form action="userList" method="post">
+    用户名：<input type="text" name="gradeName"/>
+    <input type="submit" name="查询"/>
+</form>
+<a href="toEditView">添加用户</a>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>名称</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <#list list as g>
+    <tr>
+        <td>${g.gradeID}</td>
+        <td>${g.gradeName!}</td>
+        <td><input name="del" type="button"  value="删除记录" onclick=""></td>
+    </tr>
+    </#list>
+    </tbody>
+</table>
+
+
+
+
+</body>
+</html>

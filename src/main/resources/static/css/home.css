@@ -1,0 +1,184 @@
+body{
+    color:#666;
+}
+.register{
+    margin:0 auto;
+    margin-top: 60px;
+    width:80%;
+
+}
+.loginRight{
+    font-size: 16px;
+    margin-top: 18px;
+}
+#footer{
+    background-color: #eee;
+    border-top: 1px solid #cccccc;
+    padding: 20px;
+    text-align: center;
+}
+#navbar-collapse ul{
+    margin-top: 0px;
+}
+/**
+轮播图样式
+ */
+#myCarousel{
+    margin:50px 0 0 0;
+}
+.carousel-inner img{
+    margin:0 auto;
+}
+.carousel-control{
+    font-size: 100px;
+}
+.tab-h2{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #0059B2;
+}
+.tab-p{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin:20px 0 40px 0;
+    color:#999;
+}
+.tab1{
+    margin:30px 0;
+    color:#666;
+}
+.tab1 .text-muted{
+    color:#999;
+    text-decoration: line-through;
+}
+.tab1 .media-heading{
+    margin:5px 0 20px 0;
+}
+.tab1 .col{
+    padding: 30px;
+}
+/**
+资讯样式
+ */
+.jumbotron{
+    background-color: #000;
+    margin:40px 0 0 0;
+    color: #ccc;
+}
+.jumbotron h1{
+    font-size: 26px;
+    padding: 0 0 0 20px;
+}
+.jumbotron h4{
+    font-size: 16px;
+    padding: 0 0 0 20px;
+}
+.nav-bread{
+    margin: 0;
+    background-color: #f5f5f5;
+}
+#infomation{
+    background-color: #eeeeee;
+    padding: 30px 0;
+    margin-top: -20px;
+}
+
+#play{
+    margin:60px 0 0 0;
+    background-color: #2B2E33;
+}
+.media{
+    background-color: #FAFAFA;
+    margin:60px 0 0 0;
+}
+.media-left{
+    /*background-color: #000000;*/
+}
+.glyphicon-star{
+    color:#1ca33b;
+}
+/**
+没有小于768px,是因为bootstrap3以移动端优先设计
+/**
+小屏幕
+ */
+
+@media (min-width: 375px) {
+    .media-play{
+        width:375px;
+        height:376px;
+    }
+}
+
+@media (min-width: 768px) {
+    .tab-h2{
+        font-size: 26px;
+    }
+    .tab-p{
+        font-size: 16px;
+
+    }
+    umbotron h1{
+        font-size: 30px;
+    }
+    .jumbotron h4{
+        font-size: 16px;
+    }
+    .media-play{
+        width:650px;
+        height: 375px;
+    }
+}
+/**
+中屏幕
+ */
+@media (min-width: 992px) {
+    .tab-h2{
+        font-size: 28px;
+    }
+    .tab-p{
+        font-size: 17px;
+
+    }
+    umbotron h1{
+        font-size: 33px;
+    }
+    .jumbotron h4{
+        font-size: 17px;
+    }
+    /*
+    .media-object{
+        width:650px;
+        height: 375px;
+    }*/
+}
+@media (min-width:1024px) {
+    .media-play{
+        width:768px;
+        height: 375px;
+    }
+}
+/**
+大屏幕
+ */
+@media (min-width:1200px) {
+    .tab-h2{
+        font-size: 30px;
+    }
+    .tab-p{
+        font-size: 18px;
+    }
+    .jumbotron h1{
+        font-size: 36px;
+    }
+    .jumbotron h4{
+        font-size: 18px;
+    }
+    .media-play{
+        width:638px;
+        height:480px;
+        padding-left: 20px;
+    }
+}

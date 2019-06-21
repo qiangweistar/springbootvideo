@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+    <script src="/webjars/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+
+</head>
+<body>
+<!--响应式的导航-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand"><img src=""/>此处放logo</a>
+                <!--隐藏时的按钮-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                   <!--三根线-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!--折叠部分 屏幕缩小后自动隐藏-->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" style="margin-top: 0px;">
+                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>  首页</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-cog"></span>  课程</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-star-empty"></span> 个人中心</a></li>
+                    <li><a href="login"><span class="glyphicon glyphicon-off"></span> 登录</a></li>
+                    <li><a href="course"><span class="glyphicon glyphicon-cog"></span> 注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--提交表单-->
+<div class="register">
+    <form>
+        <div class="form-group">
+            <label>昵称</label>
+            <input type="email" class="form-control" placeholder="请输入的你的昵称"/>
+        </div>
+        <div class="form-group">
+            <label>密码</label>
+            <input type="password" class="form-control" placeholder="请输入的你的密码"/>
+        </div>
+        <div class="form-group">
+            <label>手机号</label>
+            <input type="text" class="form-control auth" placeholder="请输入的你的手机号"/>
+        </div>
+        <div class="form-group">
+            <label>验证码</label>
+                <div class="input-group">
+                    <input type="text" name="verify" class='form-control' placeholder="请输入手机验证码" />
+                    <div class="input-group-btn">
+                        <button class="btn btn-default">获取短信验证码</button>
+                    </div>
+                </div>
+        </div>
+        <div class="checkbox">
+            <button type="button" class="btn btn-success btn-lg btn-block">立即注册</button>
+        </div>
+    </form>
+    <div style="height: 120px"></div>
+</div>
+<!--底部-->
+<footer id="footer">
+    <div class="container-fluid">
+        <p>关于我们| 联系我们 |加入我们| VIP会员| 版权所有</p>
+        <p>晋公网安备14010902000157号 晋ICP备14001940号-4</p>
+    </div>
+</footer>
+</body>
+
+
+</html>

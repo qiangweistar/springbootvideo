@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课程</title>
+    <script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+    <script src="/webjars/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+
+</head>
+<body>
+<!--响应式的导航-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"><img src=""/>此处放logo</a>
+            <!--隐藏时的按钮-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <!--三根线-->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!--折叠部分 屏幕缩小后自动隐藏-->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>  首页</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-cog"></span>  课程</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-star-empty"></span> 个人中心</a></li>
+                <li><a href="login"><span class="glyphicon glyphicon-off"></span> 登录</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-cog"></span> 注册</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--轮播图-->
+<div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active" ><!--style="background:#000000"-->
+            <img src="/images/253_3.jpg" alt="第一张">
+        </div>
+        <div class="item" style="">
+            <img src="/images/3839_3.jpg" alt="第二张">
+        </div>
+        <div class="item" style="">
+            <img src="/images/side0.jpg" alt="第三张">
+        </div>
+    </div>
+    <!--左右的点击-->
+    <a href="#myCarousel" data-slide="prev" class="carousel-control left"><!--&lsaquo;-->
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#myCarousel" data-slide="next" class="carousel-control right"><!--&rsaquo;-->
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+<!--首页开始-->
+<div class="tab1">
+    <div class="container">
+        <h2 class="tab-h2">[为什么要选择瓢虫培训企业]</h2>
+        <p class="tab-p">
+            强大的师资力量，完美的实战型管理课程，让您的企业实现质的腾飞。
+        </p>
+        <div class="row">
+            <div class="col-md-6 col">
+                <div class="media">
+                    <div class="media-left">
+                       <a href="#"><img src="/images/timg.jpg" width="200px" height="200px" class="media-object" alt=""></a>
+                    </div>
+                    <div class="media-body"><!--右边部分-->
+                        <h4 class="media-heading">课程内容</h4>
+                        <p class="text-muted">内容内容内容内容内容内容内容内容内容内容内容</p>
+                        <p>内容内容内容内容内容内容内容内容内容内容内容</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#"><img src="/images/timg.jpg" width="200px" height="200px" class="media-object" alt=""></a>
+                    </div>
+                    <div class="media-body"><!--右边部分-->
+                        <h4 class="media-heading">师资力量</h4>
+                        <p class="text-muted">内容内容内容内容内容内容内容内容内容内容内容</p>
+                        <p>内容内容内容内容内容内容内容内容内容内容内容</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#"><img src="/images/timg.jpg" width="200px" height="200px" class="media-object" alt=""></a>
+                    </div>
+                    <div class="media-body"><!--右边部分-->
+                        <h4 class="media-heading">课时按排</h4>
+                        <p class="text-muted">内容内容内容内容内容内容内容内容内容内容内容</p>
+                        <p>内容内容内容内容内容内容内容内容内容内容内容</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#"><img src="/images/timg.jpg" width="200px" height="200px" class="media-object" alt=""></a>
+                    </div>
+                    <div class="media-body"><!--右边部分-->
+                        <h4 class="media-heading">服务团队</h4>
+                        <p class="text-muted">内容内容内容内容内容内容内容内容内容内容内容</p>
+                        <p>内容内容内容内容内容内容内容内容内容内容内容</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--底部-->
+<footer id="footer">
+    <div class="container-fluid">
+        <p>关于我们| 联系我们 |加入我们| VIP会员| 版权所有</p>
+        <p>晋公网安备14010902000157号 晋ICP备14001940号-4</p>
+    </div>
+</footer>
+</body>
+<script type="text/javascript">
+$(function () {
+    //轮播图自动播放
+    $('#myCarousel').carousel(function () {
+        interval:4000;
+    });
+    /*
+    console.log($('.carousel-inner').height());
+    //设置垂直居中
+    $('carousel-control').css('line-height',$('.carousel-inner').height()+'px');
+
+    $(window).resize(function () {
+        var $height=$('.carousel-inner img').eq(0).height()||
+                   $('.carousel-inner img').eq(1).height()||
+                   $('.carousel-inner img').eq(2).height();
+        $('carousel-control').css('line-height',$height+'px');
+    })*/
+});
+</script>
+
+</html>
